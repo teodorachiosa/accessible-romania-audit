@@ -130,6 +130,11 @@ h6 {
   margin-bottom: 0;
 }
 
+h4 {
+  padding-left: 10px;
+  border-left: 4px solid var(--base-color);
+}
+
 ul,
 ol {
   margin-top: 0;
@@ -181,7 +186,7 @@ img {
  </dd><dt class="svelte-1wx1it7">Evaluation date </dt><dd class="svelte-1wx1it7"><p>Nov 19 2025 - Nov 30 2025</p>
 </dd></dl> </div> <div><h2>Executive Summary</h2> <div><h3 id="audit-conclusions">Audit conclusions</h3>
 <h4 id="recommendations">Recommendations</h4>
-<p>WordPress seems to be used for making and maintaining this website, thus remediations should be made by someone with both WordPress and coding knowledge. Some of the fixes suggested in this audit imply direct changes to HTML code.</p>
+<p>WordPress seems to be used for making and maintaining this website, thus remediations should be made by someone with WordPress and coding knowledge. Some of the fixes suggested in this audit imply direct changes to the code.</p>
 <h3 id="other-notes">Other notes</h3>
 <h4 id="accessibility-overlay">Accessibility overlay</h4>
 <p>An accessibility overlay was found on each page of the website.
@@ -190,7 +195,7 @@ This tool doesn't provide full compliance with accessibility standards and laws 
 <p>Upon a quick look, this overlay introduces the following issues:</p>
 <ul>
 <li>It introduces many tab stops for keyboard users and screen reader users, without providing a way to bypass this repeated content.</li>
-<li>It wrongfully uses links instead of buttons for some of its functionalities. These features are then announced as links to screen reader users and can cause confusion.</li>
+<li>It wrongfully uses links instead of buttons for some of its functionalities. These features are announced as links to screen reader users and can cause confusion.</li>
 <li>The "Increase text" feature doesn't apply to all text in the page and the enlarged text overlaps other text, making it hard to read.</li>
 <li>The Sitemap provided is only machine readable and not very human readable, since it's an XML file.</li>
 </ul>
