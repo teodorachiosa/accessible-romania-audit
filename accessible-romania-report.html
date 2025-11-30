@@ -49,6 +49,11 @@ main {
 a {
   color: var(--base-color);
   text-underline-offset: 2px;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration-thickness: 2px;
+  }
 }
 
 code,
@@ -138,6 +143,10 @@ h6 {
 ul,
 ol {
   margin-top: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 4px;
+  }
 }
 
 /* Desktop exceptions */
@@ -181,7 +190,8 @@ footer {
 
 img {
   width: 100%;
-}</style></head><body><div class="default-grid"><main class="main-without-panel svelte-1mdlt3n" data-landmark-index="1"> <h1>Digital Accessibility Audit for "Accessible Romania"</h1>    <div><h2>About the Evaluation</h2> <dl class="report-heading-about svelte-1wx1it7"><dt class="svelte-1wx1it7">Report Creator </dt><dd class="svelte-1wx1it7"><p>Teodora Chiosa</p>
+}
+</style></head><body><div class="default-grid"><main class="main-without-panel svelte-1mdlt3n" data-landmark-index="1"> <h1>Digital Accessibility Audit for "Accessible Romania"</h1>    <div><h2>About the Evaluation</h2> <dl class="report-heading-about svelte-1wx1it7"><dt class="svelte-1wx1it7">Report Creator </dt><dd class="svelte-1wx1it7"><p>Teodora Chiosa</p>
  </dd><dt class="svelte-1wx1it7">Evaluation Commissioner </dt><dd class="svelte-1wx1it7"><p>Cristina Căluianu</p>
  </dd><dt class="svelte-1wx1it7">Evaluation date </dt><dd class="svelte-1wx1it7"><p>Nov 19 2025 - Nov 30 2025</p>
 </dd></dl> </div> <div><h2>Executive Summary</h2> <div><p>Overall, the audited website is <strong>partially compliant</strong> with WCAG 2.2 level AA.
